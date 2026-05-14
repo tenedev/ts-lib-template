@@ -24,8 +24,8 @@ importers:
         specifier: ^25.3.0
         version: 25.3.0
       '@vitest/coverage-v8':
-        specifier: 4.1.5
-        version: 4.1.5(vitest@4.1.6)
+        specifier: 4.1.6
+        version: 4.1.6(vitest@4.1.6)
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -43,7 +43,7 @@ importers:
         version: 6.0.2
       vitest:
         specifier: ^4.1.6
-        version: 4.1.6(@types/node@25.3.0)(@vitest/coverage-v8@4.1.5)(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4))
+        version: 4.1.6(@types/node@25.3.0)(@vitest/coverage-v8@4.1.6)(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4))
 
 packages:
   '@babel/generator@8.0.0-rc.4':
@@ -1183,14 +1183,14 @@ packages:
         integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==,
       }
 
-  '@vitest/coverage-v8@4.1.5':
+  '@vitest/coverage-v8@4.1.6':
     resolution:
       {
-        integrity: sha512-38C0/Ddb7HcRG0Z4/DUem8x57d2p9jYgp18mkaYswEOQBGsI1CG4f/hjm0ZCeaJfWhSZ4k7jgs29V1Zom7Ki9A==,
+        integrity: sha512-36l628fQ/9a/8ihy97eOtEnvWQEdqULQOJtcaxtoNq0G1w3Mxd4szSahOaMM9/NGyZ+hyKcMtIW/WIxq0XQViQ==,
       }
     peerDependencies:
-      '@vitest/browser': 4.1.5
-      vitest: 4.1.5
+      '@vitest/browser': 4.1.6
+      vitest: 4.1.6
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -1215,12 +1215,6 @@ packages:
       vite:
         optional: true
 
-  '@vitest/pretty-format@4.1.5':
-    resolution:
-      {
-        integrity: sha512-7I3q6l5qr03dVfMX2wCo9FxwSJbPdwKjy2uu/YPpU3wfHvIL4QHwVRp57OfGrDFeUJ8/8QdfBKIV12FTtLn00g==,
-      }
-
   '@vitest/pretty-format@4.1.6':
     resolution:
       {
@@ -1243,12 +1237,6 @@ packages:
     resolution:
       {
         integrity: sha512-JFKxMx6udhwKh/Ldo270e17QX710vgunMkuPAvXjHSvC6oqLWAHhVhjg/I71q0u0CBSErIODV1Kjv0FQNSWjdg==,
-      }
-
-  '@vitest/utils@4.1.5':
-    resolution:
-      {
-        integrity: sha512-76wdkrmfXfqGjueGgnb45ITPyUi1ycZ4IHgC2bhPDUfWHklY/q3MdLOAB+TF1e6xfl8NxNY0ZYaPCFNWSsw3Ug==,
       }
 
   '@vitest/utils@4.1.6':
@@ -3130,10 +3118,10 @@ snapshots:
     dependencies:
       undici-types: 7.18.2
 
-  '@vitest/coverage-v8@4.1.5(vitest@4.1.6)':
+  '@vitest/coverage-v8@4.1.6(vitest@4.1.6)':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
-      '@vitest/utils': 4.1.5
+      '@vitest/utils': 4.1.6
       ast-v8-to-istanbul: 1.0.0
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
@@ -3142,7 +3130,7 @@ snapshots:
       obug: 2.1.1
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.6(@types/node@25.3.0)(@vitest/coverage-v8@4.1.5)(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4))
+      vitest: 4.1.6(@types/node@25.3.0)(@vitest/coverage-v8@4.1.6)(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4))
 
   '@vitest/expect@4.1.6':
     dependencies:
@@ -3161,10 +3149,6 @@ snapshots:
     optionalDependencies:
       vite: 7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4)
 
-  '@vitest/pretty-format@4.1.5':
-    dependencies:
-      tinyrainbow: 3.1.0
-
   '@vitest/pretty-format@4.1.6':
     dependencies:
       tinyrainbow: 3.1.0
@@ -3182,12 +3166,6 @@ snapshots:
       pathe: 2.0.3
 
   '@vitest/spy@4.1.6': {}
-
-  '@vitest/utils@4.1.5':
-    dependencies:
-      '@vitest/pretty-format': 4.1.5
-      convert-source-map: 2.0.0
-      tinyrainbow: 3.1.0
 
   '@vitest/utils@4.1.6':
     dependencies:
@@ -3973,7 +3951,7 @@ snapshots:
       jiti: 2.6.1
       yaml: 2.8.4
 
-  vitest@4.1.6(@types/node@25.3.0)(@vitest/coverage-v8@4.1.5)(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4)):
+  vitest@4.1.6(@types/node@25.3.0)(@vitest/coverage-v8@4.1.6)(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4)):
     dependencies:
       '@vitest/expect': 4.1.6
       '@vitest/mocker': 4.1.6(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.4))
@@ -3997,7 +3975,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 25.3.0
-      '@vitest/coverage-v8': 4.1.5(vitest@4.1.6)
+      '@vitest/coverage-v8': 4.1.6(vitest@4.1.6)
     transitivePeerDependencies:
       - msw
 
