@@ -70,7 +70,7 @@
     "lint-staged": "^17.0.5",
     "prettier": "^3.8.3",
     "tsdown": "^0.22.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.0",
     "vitest": "^4.1.7"
   },
   "prettier": "@tenedev/prettier-config",
