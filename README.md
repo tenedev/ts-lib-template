@@ -44,7 +44,7 @@ Or click **Use this template** on GitHub.
 ## Support
 
 Sponsor here:
-[https://github.com/sponsors/teneplaysofficial](https://github.com/sponsors/teneplaysofficial)
+https://github.com/sponsors/tenedev
 
 ## Final Words
 
