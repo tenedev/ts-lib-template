@@ -16,7 +16,7 @@ importers:
         version: 2.5.5
       '@tenedev/prettier-config':
         specifier: ^1.3.0
-        version: 1.3.0(prettier@3.9.6)
+        version: 1.3.0(prettier@3.9.9)
       '@tenedev/tsconfig':
         specifier: ^1.0.0
         version: 1.0.0(typescript@7.0.2)
@@ -33,8 +33,8 @@ importers:
         specifier: ^17.2.0
         version: 17.2.0
       prettier:
-        specifier: ^3.9.6
-        version: 3.9.6
+        specifier: ^3.9.9
+        version: 3.9.9
       tsdown:
         specifier: ^0.22.14
         version: 0.22.14(typescript@7.0.2)
@@ -2124,10 +2124,10 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.9.6:
+  prettier@3.9.9:
     resolution:
       {
-        integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==,
+        integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==,
       }
     engines: { node: '>=14' }
     hasBin: true
@@ -3023,10 +3023,10 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tenedev/prettier-config@1.3.0(prettier@3.9.6)':
+  '@tenedev/prettier-config@1.3.0(prettier@3.9.9)':
     dependencies:
-      prettier: 3.9.6
-      prettier-plugin-packagejson: 3.0.2(prettier@3.9.6)
+      prettier: 3.9.9
+      prettier-plugin-packagejson: 3.0.2(prettier@3.9.9)
       sort-package-keys: 2.0.0
 
   '@tenedev/tsconfig@1.0.0(typescript@7.0.2)':
@@ -3610,13 +3610,13 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.6):
+  prettier-plugin-packagejson@3.0.2(prettier@3.9.9):
     dependencies:
       sort-package-json: 3.6.1
     optionalDependencies:
-      prettier: 3.9.6
+      prettier: 3.9.9
 
-  prettier@3.9.6: {}
+  prettier@3.9.9: {}
 
   process-nextick-args@2.0.1: {}
 
